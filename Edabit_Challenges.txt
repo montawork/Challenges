@@ -1,0 +1,3296 @@
+// Return the Sum of Two Numbers
+function addition(a, b) {
+	return a + b;
+}
+
+// Convert Minutes into Seconds
+function convert(minutes) {
+	return minutes * 60;
+}
+
+// Area of a Triangle
+function triArea(base, height) {
+	return (base * heght) / 2;
+}
+
+// Find the Perimeter of a Rectangle
+function findPerimeter(height, width) {
+	return (height + width) * 2;
+}
+
+// Less Than 100?
+function lessThan100(a, b) {
+	if(a + b < 100){
+		return true
+	}
+	else{
+		return false
+	}
+}
+
+// The Farm Problem
+function animals(chickens, cows, pigs) {
+	return (chickens * 2) + (cows * 4) + (pigs * 4);
+}
+
+// Convert Hours and Minutes into Seconds
+function convert(hours, minutes) {
+	return (hours * 3600) + (minutes * 60);
+}
+
+//Are the Numbers Equal?
+function isSameNum(num1, num2) {
+	return num1 === num2 ? true : false;
+}
+
+// Convert Hours into Seconds
+function howManySeconds(hours) {
+	return hours * 3600;
+}
+
+// Maximum Edge of a Triangle
+
+function nextEdge(side1, side2) {
+	return (side1 + side2) - 1;
+}
+
+// Correct the Mistakes
+function squared(b) {
+	return b * b;
+}
+
+// Profitable Gamble
+function profitableGamble(prob, prize, pay) {
+	return (prob * prize) > pay ? true : false;
+}
+
+// Equality Check
+function checkEquality(a, b) {
+  return a === b ? true : false;
+}
+
+// Recursion: Length of a String
+function length(str) {
+	return str.length;
+}
+
+// Return the First Element in an Array
+function getFirstValue(arr) {
+	return arr[0];
+}
+
+// Is the Number Less than or Equal to Zero?
+function lessThanOrEqualToZero(num) {
+	return num <= 0 ? true : false;
+}
+
+// Check if an Integer is Divisible By Five
+function divisibleByFive(n) {
+	return n % 5 == 0 ? true : false;
+}
+
+// Is the String Empty?
+function isEmpty(s) {
+	return s.length == 0 ? true : false;
+}
+
+// Return the Next Number from the Integer Passed
+function addition(num) {
+	return num += 1;
+}
+
+// Reverse an Array
+function reverse(arr) {
+	return arr.reverse();
+}
+
+// Multiple of 100
+function divisible(num) {
+	return num % 100 == 0 ? true : false;
+}
+
+// Return the Last Element in an Array
+function getLastItem(arr) {
+	return arr[arr.length-1];
+}
+
+// Return the Remainder from Two Numbers
+
+function remainder(x, y) {
+	return x % y;
+}
+
+// Frames Per Second
+function frames(minutes, fps) {
+	return (minutes * 60) * fps;
+}
+
+// Concatenate First and Last Name into One String
+function concatName(firstName, lastName) {
+	return `${lastName}, ${firstName}`;
+}
+
+// Concatenating Two Integer Arrays
+function concat(arr1, arr2) {
+	return arr1.concat(arr2);
+}
+
+// Find the Index (Part 1)
+function search(arr, item) {
+	return arr.indexOf(item);
+}
+
+// Check if an Array Contains a Given Number
+function check(arr, el) {
+	return arr.includes(el);
+}
+
+// To the Power of _____
+function calculateExponent(num, exp) {
+	return Math.pow(num, exp);
+}
+
+// Is the Number Even or Odd?
+function isEvenOrOdd(num) {
+	return num % 2 == 0 ? 'even' : 'odd';
+}
+
+// Name Greeting!
+const helloName = name => `Hello ${name}!`;
+
+// Is the Last Character an N?
+function isLastCharacterN(word) {
+	return word.endsWith('n');
+}
+
+// Compare Strings by Count of Characters
+function comp(str1, str2) {
+	return str1.length === str2.length;
+}
+
+// Volume of a Box
+function volumeOfBox(sizes) {
+	return sizes.width * sizes.length * sizes.height;
+}
+
+// Find the Index
+function findIndex(arr, str) {
+	return arr.indexOf(str);
+}
+
+// Return the Total Number of Parameters
+function numberArgs(p1, p2, p3) {
+	return arguments.length;
+}
+
+// Extract City Facts
+function cityFacts(city) {
+	return `${city.name} has a population of ${city.population} and is situated in ${city.continent}`;
+}
+
+// ES6: Destructuring Arrays IV
+const str = '[head, ...tail] = [1, 2, 3, 4]';
+
+// ES6: Destructuring Objects III
+const str = `({ one = 1, two } = {two : 2 }).toString()`
+
+// Divides Evenly
+function dividesEvenly(a, b) {
+	return !(a % b) ? true : false;
+}
+
+// Check String for Spaces
+function hasSpaces(str) {
+	return str.includes(' ');
+}
+
+// ES6: Destructuring Arrays I
+const arr = [1, 2, 3, 4, 5, 6]
+const [a, b] = arr;
+
+// Find the Bug: Returning the Container
+function getContainer(product) {
+	let container
+  switch (product) {
+		case "Bread":
+			container = "bag"
+			break;
+		case "Beer":
+		case "Milk":
+			container = "bottle"
+			break
+		case "Cerials":
+			container = "box"
+			break
+		case "Eggs":
+			container = "carton"
+			break
+		case "Candy":
+			container = "plastic"
+			break;
+		default:
+			container = null
+			break;
+	}
+
+	return container
+}
+
+// Slice of Pie
+function equalSlices(total, people, each) {
+	return total >= people * each ? true : false;
+}
+
+// Hello; Hello World; World
+function helloWorld(num) {
+	return num % 15 === 0 ? 'Hello World' : num % 5 === 0 ? 'World' :'Hello'
+}
+
+// Case Insensitive Comparison
+function match(s1, s2) {
+	return s1.toLowerCase() == s2.toLowerCase() ? true : false
+}
+
+//Is the Word Singular or Plural?
+function isPlural(word) {
+	return word[word.length-1] == 's'
+}
+
+// Find the Index (Part 2)
+function search(arr, item) {
+	return arr.indexOf(item);
+}
+
+// Fraction Greater Than One
+function greaterThanOne(frac) {
+	return eval(frac) > 1 ? true : false;
+}
+
+// Char-to-ASCII
+function ctoa(c) {
+	return c.charCodeAt();
+}
+
+
+// Stack the Boxes
+function stackBoxes(n) {
+	return Math.pow(n, 2);
+}
+
+// Default Mood
+function moodToday(mood) {
+	return mood = typeof mood !== 'undefined' ? `Today, I am feeling ${mood}` : 
+	      'Today, I am feeling neutral' ;
+}
+
+// ES6: Destructuring Arrays III
+const arr = ["eyes", "nose", "lips", "ears"]
+var [, , lips, ] = arr
+
+// Testing K^K == N?
+function kToK(n, k) {
+	return n === Math.pow(k, k);
+}
+
+// Is It a Triangle?
+function isTriangle(a, b, c) {
+	return a + b > c && b + c > a && a + c > b;
+}
+
+// Count the Arguments
+function numArgs() {
+	return arguments.length;
+}
+
+// Multiply Every Array Item by Two
+function getMultipliedArr(arr) {
+	return arr = arr.map( m => m * 2);
+}
+
+// ES6: Destructuring Arrays II
+const arr = ["cars", "planes", ["trains", ["motorcycles"]]]
+let [ trans1, trans2, [trans3,[ trans4]] ] = arr
+
+// Get the Sum of All Array Elements
+function getSumOfItems(arr) {
+	const reds = (x, y) => x + y;
+	return arr.reduce(reds);
+}
+
+// ES6: Destructuring Objects VIII
+const user = { name: "John", email: "john@example.com",city: "Phoenix", state: "AZ", country: "USA"}
+const str = `({ name, email, ...rest} = user ).toString()`
+
+// Array of Word Lengths
+const wordLengths = (arr) => arr.map(word => word.length);
+
+// String to Integer and Vice Versa
+function toInt(str) {
+	return eval(str);
+}
+function toStr(int) {
+	return int.toString();
+}
+
+// String or Integer?
+let intOrString = (param) => typeof param === 'number' ? 'int' : 'str';
+
+// The pH Scale
+function pHName(pH) {
+	return pH === 7 ? 'neutral' : pH < 7 && pH >= 0 ? 'acidic' : pH > 7 && pH <= 14 ? 'alkaline' : 'invalid';
+}
+
+// Is the Word Singular or Plural?
+function isPlural(word) {
+	return word.lastIndexOf('s') === word.length-1 ? true : false;
+}
+
+// Shapes With N Sides
+function nSidedShape(n) {
+	switch(n){
+		case 1:
+			return 'circle';
+			break;
+		case 2:
+			return 'semi-circle';
+			break;
+		case 3:
+			return 'triangle';
+			break;
+		case 4:
+			return 'square';
+			break;
+		case 5:
+			return 'pentagon';
+			break;
+		case 6:
+			return 'hexagon';
+			break;
+		case 7:
+			return 'heptagon';
+			break;
+		case 8:
+			return 'octagon';
+			break;
+		case 9:
+			return 'nonagon';
+			break;
+		case 10:
+			return 'decagon';
+			break;
+	}
+}
+
+
+// RegEx: Character Classes VIII ⁠- \D
+const REGEXP = /\D/g
+
+// Lowercase, Uppercase or Mixed?
+function getCase(str) {
+	return str == str.toUpperCase() ? 'upper' : str == str.toLowerCase() ? 'lower' : 'mixed';
+}
+
+// Add a Consecutive List of Numbers
+const addUpTo = n => n === 1 || n === 0 ? n : n + addUpTo(n-1); 
+
+// Sum of the Odd Numbers
+const addOddToN = n => n === 1 || n === 0 ? n : n + addOddToN(n-2);
+
+// Spaces Between Each Character
+function spaceMeOut(str) {
+	 return str.split('').join(' ');
+
+}
+
+// Simple OOP Calculator
+class Calculator {
+
+	constructor(a, b){
+		this.a = a;
+		this.b = b;
+	}
+	
+	add(a, b){
+		return a + b;
+	}
+	
+	subtract(a, b){
+		return a - b;
+	}
+	
+	multiply(a, b){
+		return a * b;
+	}
+	
+	divide(a, b){
+		return a / b;
+	}
+	
+}
+
+// Two Regular Expression Methods
+function twoMethods() {
+	// find and equals are not regular expression methods.  Replace them. 
+	let methodOne = /hello/.exec("hello")[0] === "hello" 
+	let methodTwo = /hello/.test("hello") // returns a boolean
+	return methodOne && methodTwo
+}
+
+// Count the Syllables
+function countSyllables(str) {
+	let sylleab = /[a-z]/gi;
+	return str.match(sylleab).length / 2;
+}
+
+// Free Coffee Cups
+function totalCups(n) {
+	return Math.floor((n / 6) + n);
+}
+
+// The Study of Wumbology
+function wumbo(words) {
+	let wumb = /m/gi;
+	return words.replace(wumb, 'W');
+}
+
+// Check if Number is within a Given Range
+function isInRange(num, range) {
+	return num >= range.min && num <= range.max ? true : false;
+}
+
+// Coding Website Score Calculator
+function scoreCalculator(easy, med, hard) {
+	return easy * med * hard >= 0 ? (easy * 5) + (med * 10) + (hard * 20) : 'invalid';
+}
+
+// Skip the Drinks with Too Much Sugar
+function skipTooMuchSugarDrinks(drinks) {
+	return drinks.filter(dr => dr != 'fanta' && dr != 'cola');
+}
+
+// Add the Index
+function addIndexes(arr) {
+	let i,
+			l = arr.length,
+			newArr = [];
+	for(i = 0; i < l; i += 1){
+		newArr.push(arr[i] + i);
+	}
+	return newArr;
+}
+
+// Find the Total Number of Digits the Given Number Has
+function findDigitAmount(num) {
+	return num.toString().length;
+}
+
+// Not Not Not True
+function notNotNot(n, bool) {
+	return n % 2 == 0 ? bool : !bool;
+}
+
+// Half, Quarter and Eighth
+const halfQuarterEighth = (n) => {
+	let x = n / 2,
+			y = x / 2,
+			z = y / 2,
+			arr = [];
+	arr.push(x, y, z);
+	return arr;
+}
+
+// Limit a Number's Value
+function limitNumber(num, rangeLow, rangeHigh) {
+	return num > rangeLow && num < rangeHigh ? num : rangeLow > num ? rangeLow : rangeHigh;
+}
+
+// Convert Number to Corresponding Month Name
+	let monthN = {
+		1: 'January',
+		2: 'February',
+		3: 'March',
+		4: 'April',
+		5: 'May',
+		6: 'June',
+		7: 'July',
+		8: 'August',
+		9: 'September',
+		10: 'October',
+		11: 'November',
+		12: 'December'
+	};
+	return monthN[num];
+}
+
+// Summing the Squares
+function squaresSum(n) {
+	let i,
+			s = 0;
+	for(i = 0; i <= n; i += 1){
+		s += i * i;
+	}
+	return s;
+}
+
+// ES6: Destructuring Objects II
+let str = `({ one: anotherOne, two } = { one : 1, two : 2}).toString()`
+
+// Raucous Applause
+function countClaps(str) {
+	return str.split('C').length - 1;
+}
+
+// Burrrrrrrp
+function longBurp(num) {
+	let r = 'r';
+	return `Bu${r.repeat(num)}p`;
+}
+
+// Get Word Count
+function countWords(str) {
+	return str.split(' ').length;
+}
+
+// Count Syllables
+function numberSyllables(word) {
+	return word.split('-').length;
+}
+
+// Add, Subtract, Multiply or Divide?
+function operation(num1, num2) {
+	return num1 + num2 == 24 ? 'added' : num1 - num2 == 24 ? 'subtracted' :
+				 num1 / num2 == 24 ? 'divided' : num1 * num2 == 24 ? 'multiplied' : null;
+}
+
+// Volume of a Pizza
+function volPizza(radius, height) {
+	return Math.round((radius * radius) * height * Math.PI);
+}
+
+// Additive Inverse
+function additiveInverse(arr) {
+	return arr.map(x => x * -1);
+}
+
+// The 3 Programmers Problem
+function programmers(one, two, three) {
+	return Math.max(one, two, three) - Math.min(one, two, three);
+}
+
+// FizzBuzz Interview Question
+function FizzBuzz(num) {
+	return num % 15 == 0 ? 'FizzBuzz' : num % 5 == 0 ? 'Buzz' 
+				: num % 3 == 0 ? 'Fizz' : ''+num;
+}
+
+// Missing Third Angle
+function missingAngle(angle1, angle2) {
+	return angle1 + angle2 < 90 ? 'obtuse' : angle1 + angle2 == 90 ? 
+				'right' : 'acute';
+}
+
+// Regex Series: String Contains at Least One Digit
+let x = /^\w*\d$/
+
+// Promises IV: The Reject Callback
+let promise = new Promise( (resolve, reject) => {
+	let animal = "cat"
+  setTimeout(() => {
+		if(animal === "dog") {
+			resolve("It's a dog!")
+		} 
+	  if(animal !== "dog") {
+			reject("It's not a dog!")
+		}
+  }, 1000)
+})
+
+// ES6: Destructuring Objects I
+let str = `(  {one, two} = { one : 1, two : 2}).toString()`
+
+// Does the Object Contain a Given Key?
+function hasKey(obj, key) {
+	return (key in obj)
+}
+
+// RegEx: Character Classes IX ⁠- \w
+const REGEXP = /\w+/gi
+
+// Word Endings
+const addEnding = (arr, ending) => arr.map(el => el + ending);
+
+// Multiply by Length
+function multiplyByLength(arr) {
+	const l = arr.length;
+	return arr.map(el => el * l);
+}
+
+// Bitwise Operations
+function bitwiseAND(n1, n2) {
+	return (n1 & n2)
+}
+function bitwiseOR(n1, n2) {
+	return (n1 | n2)
+}
+function bitwiseXOR(n1, n2) {
+	return (n1 ^ n2)
+}
+
+// Convert Kilometers to Miles
+function kmtomiles(kilometers) {
+	return eval((kilometers * 0.621371).toFixed(5))
+}
+
+// Difference of Max and Min Numbers in Array
+function diffMaxMin(arr) {
+	return Math.max(...arr) - Math.min(...arr);
+} 
+
+// Which Function Returns the Larger Number?
+function whichIsLarger(f, g) {
+	return f() > g() ? 'f' : g() > f() ? 'g' : 'neither'
+}
+
+// Negate the Array of Numbers
+function negate(arr) {
+	return arr.map(el => -el);
+}
+
+// Semantic Versioning
+function retrieveMajor(semver) {
+	let s = semver.split('.');
+	return s1[0];
+}
+
+function retrieveMinor(semver) {
+	let s2 = semver.split('.');
+	return s2[1];
+}
+
+function retrievePatch(semver) {
+	let s3 = semver.split('.');
+	return s3[2];
+}
+
+// Convert Number to String of Dashes
+function Go(num) {
+	let d = '-';
+	return d.repeat(num);
+}
+
+//Eliminate Odd Numbers within an Array
+function noOdds(arr) {
+	let i,
+			l = arr.length,
+			newArr = [];
+	for(i = 0; i < l; i += 1){
+		if(arr[i] % 2 == 0){
+			newArr.push(arr[i])
+		}
+	}
+	return newArr;
+}
+
+// Vowel Replacer
+function replaceVowels(str, ch) {
+	let replaces = /[aieuo]/gi;
+	return str.replace(replaces, ch);
+}
+
+// Matchstick Houses
+function matchHouses(step) {
+	return step == 0 ? 0 : step == 1 ? 6 : (step * 6) - (step - 1);
+}
+
+// Maximum Difference
+const difference = n => Math.max(...n) - Math.min(...n);
+
+// Find the Bug: Checking Even Numbers
+function checkAllEven(arr) {
+  return arr.every(x => x % 2 === 0)
+}
+
+// Smaller String Number
+function smallerNum(n1, n2) {
+	return +n1 < +n2 ? n1 : n2;
+}
+
+// Remove Null from an Array
+const removeNull = arr => arr.filter(val => val != null);
+
+//Return the First and Last Elements in an Array
+function firstLast(arr) {
+	return [ arr[0], arr[arr.length-1] ];
+}
+
+// Remove the First and Last Characters
+function removeFirstLast(str) {
+	return str.length <= 2 ? str : 
+				 str.split('').slice(1, str.length-1).join('');
+}
+
+// Check if String Ending Matches Second String
+function checkEnding(str1, str2) {
+	return str1.endsWith(str2);
+}
+
+// Add up the Numbers from a Single Number
+function addUp(num) {
+	return num < 1 ? num : num + addUp(num - 1);
+}
+
+// Find the Smallest and Biggest Numbers
+function minMax(arr) {
+	return [Math.min(...arr), Math.max(...arr)];
+}
+
+// Shuffle the Name
+function nameShuffle(str) {
+	return str.split(' ').reverse().join(' ');
+}
+
+// Return First and Last Parameter
+function firstArg(){
+	return arguments[0];
+}
+function lastArg() {
+	return arguments[arguments.length-1];
+}
+
+// Find the Largest Number in an Array
+function findLargestNum(arr) {
+	return Math.max(...arr);
+}
+
+// Check if One Array can be Nested in Another
+function canNest(arr1, arr2) {
+	return Math.min(...arr1) > Math.min(...arr2);
+}
+
+// Exists a Number Higher?
+function existsHigher(arr, n) {
+	return arr.some(x => x >= n)
+}
+
+// Calculate Determinant of a 2x2 Matrix
+function calcDeterminant(matrix) {
+	return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0]);
+}
+
+// Is it Time for Milk and Cookies?
+function timeForMilkAndCookies(date) {
+	return date.getMonth() == 11 && date.getDate() == 24
+}
+
+// Return the Four Letter Strings
+const isFourLetters = arr => arr.filter(f => f.length == 4);
+
+// Flip the Boolean
+function reverse(bool) {
+	return bool == true ? false : bool == false && typeof(bool) == 'boolean' ? 
+		    true : 'boolean expected'
+}
+
+// Repeating Letters N Times
+function repeat(str, n) {
+	return str.split('').map(s => s.repeat(n)).join('')
+}
+
+// A Redundant Function
+function redundant (str) {
+	return function() {
+		return str
+	}
+}
+
+// Reverse and Capitalize
+const reverseCapitalize = s => s.split('').reverse().join('').toUpperCase();
+
+// Check if the Same Case
+function sameCase(str) {
+	return  str.toUpperCase() == str || str.toLowerCase() == str
+}
+
+// RegEx Exercise 1: Find the Time
+const REGEXP = /\d{2}:\d{2}/
+
+// Date Format
+function formatDate(date) {
+	return date.split('/').reverse().join('');
+}
+
+// Seven Boom!
+const sevenBoom = arr => /7/.test(arr) ? 'Boom!' : 'there is no 7 in the array'
+
+// Truthy or Falsy?
+const isTruthy = input => !!input ? 1 : 0
+
+// Largest Swap
+function largestSwap(num) {
+	return num >= +num.toString().split('').reverse().join('') 
+}
+
+// RegEx: Character Classes X ⁠- \W
+const REGEXP = /<\/div\W{1}/g
+
+// Find the Smallest Number in an Array
+function findSmallestNum(arr) {
+	return Math.min(...arr)
+}
+
+// Persistence
+function additivePersistence(n) {
+	let count = 0;
+	while(n.toString().length > 1){
+		n = n.toString().split('').reduce((a, b) => +a + +b);
+		count++;
+	}
+	return count;
+}
+function multiplicativePersistence(n) {
+	let count = 0;
+	while(n.toString().length > 1){
+		n = n.toString().split('').reduce((a, b) => +a * +b);
+		count++;
+	}
+	return count;
+}
+
+// Check Factors
+function checkFactors(factors, num) {
+	return factors.every(val => num % val == 0)
+}
+
+// Reverse the Order of a String
+function reverse(str) {
+	return [...str].reverse().join('')
+}
+
+// Alphabet Soup
+function AlphabetSoup(str) {
+	return [...str].sort().join('')
+}
+
+// How Much is True?
+function countTrue(arr) {
+	 return arr.filter(val => val == true).length
+}
+
+// X and Y Coordinates
+function convertCartesian(x, y) {
+	let res = [],
+	for(let i = 0; i < x.length; i++) {
+		res.push([x[i], y[i]])
+	}
+	return res
+}
+
+// Filter Repeating Character Strings
+function identicalFilter(arr) {
+	return arr.filter(x => x = new Set(x).size == 1)
+}
+
+// Next Element in Arithmetic Sequence
+function nextElement(arr) {
+	let next = arr[1] - arr[0]
+	return arr[arr.length - 1] + next
+}
+
+// Is the String in Order?
+function isInOrder(str) {
+	return str == [...str].sort().join('')
+}
+
+// Edaaaaabit
+function howManyTimes(num) {
+	return 'Ed'+'a'.repeat(num)+'bit'
+}
+
+// Count Instances of a Character in a String
+function charCount(myChar, str) {
+	let count = new RegExp(myChar, 'g')
+	return str.match(count) ? str.match(count).length : 0
+}
+
+// Video Streaming Plans
+class BasicPlan {
+	static canStream = true;
+	static canDownload = true;
+	static numOfDevices = 1;
+	static hasSD = true;
+	static hasHD = false;
+	static hasUHD = false;
+	static price = '$8.99';
+}
+class StandardPlan extends BasicPlan {
+	static numOfDevices = 2;
+	static hasHD = true;
+	static price = '$12.99';
+}
+class PremiumPlan  extends StandardPlan {
+	static numOfDevices = 4;
+	static hasHD = true;
+  static hasUHD = true;
+	static price = '$15.99';
+}
+ // Unlucky 13
+ function unlucky13(nums) {
+	return nums.filter(num => num % 13)
+}
+
+// Filter out Strings from an Array
+function filterArray(arr) {
+	return arr.filter(int => typeof(int) != 'string')
+}
+
+// Factorial of a Positive Integer
+function factorial(z) {
+	if(z <= 1) {
+		return 1
+	}
+	return z * factorial(z - 1)
+}
+
+// Odd Up, Even Down
+function transform(arr) {
+	return arr.map(x => x % 2 ? x + 1 : x - 1)
+}
+
+// RegEx XIV: Group Ranges x|y
+const REGEXP = /red flag|blue flag/g
+
+// Reverse Coding Challenge #3
+const  mysteryFunc = (arr, num) => arr.map(val => val % num)
+
+// Get the File Extension
+function getExtension(arr) {
+	return arr.map(el => el.slice( el.indexOf('.') + 1 ))
+}
+
+// Algorithms: Binary Search
+function isPrime(primes, num) {
+	return primes.map(x => x == num)  && num % 2 ? 'yes' : 'no'
+}
+
+// Palindrome?
+function checkPalindrome(str) {
+	return str[0] == str[str.length-1]
+}
+
+// RegEx: Boundary Assertions I
+function isJS(path) {
+	let p = /\.js\w{0,}/g
+	return p.test(path)
+}
+
+// Capture the Rook
+function canCapture([yourRook, opponentsRook]) {
+	return yourRook[0] == opponentsRook[0] || yourRook[1] == opponentsRook[1]
+}
+
+// Extend the global Array object with an `isEqual()` method
+Array.prototype.isEqual = function(array) {
+	if(!array) return false;
+	if(this.length != array.length) return false;
+	for(let i = 0; i < this.length; i += 1) {
+		if(this == array.reverse()) return true;
+		else if(this[i] == array[i]) {
+			return true;
+			} 
+	}
+	return false;
+}
+
+// Generate a Countdown of Numbers in an Array
+function countdown(s) {
+	let arr = [],
+			i;
+	for(i = 0; i <= s; i += 1) {
+		arr.unshift(i)
+	}
+	return arr;
+}
+
+// Reverse Words Starting With a Particular Letter
+function specialReverse(s, c) {
+	return s.split(' ').
+				 map(x => x[0] == c ? x.split('').reverse().join('') : x).
+				 join(' ')
+}
+
+// Recursion: Factorials
+function factorial(n) {
+	if(n <= 1) {
+		return 1
+	}
+	return n * factorial(n - 1)
+}
+
+// Converting Objects to Arrays
+function toArray(obj) {
+	return Object.entries(obj);
+}
+
+// No Conditionals?
+const flip = y => Math.abs(y - 1);
+
+// Repeating Letters
+function doubleChar(str) {
+	return [...str].map(c => c + c).join('')
+}
+
+// How Many Vowels?
+function countVowels(str) {
+	return str.match(/[aeiou]/gi).length
+}
+
+// State Names and Abbreviations
+function filterStateNames(arr, type) {
+	return type == 'abb' ? arr.filter(state => state.length == 2) :
+				 arr.filter(state => state.length > 2)
+}
+
+// Absolute Sum
+function getAbsSum(arr) {
+	return arr.map(x => x < 0 ? x * -1 : x).reduce((x, y) => x + y)
+}
+
+// Repeat the Same Item Multiple Times
+function repeat(item, times) {
+	let res = []
+	for(let i = 0; i < times; i++) {
+		res.push(item)
+	}
+	return res
+}
+
+// Hurdle Jump
+function hurdleJump(hurdles, jumpHeight) {
+	return hurdles.every(val => val <= jumpHeight)
+}
+
+// Product Divisible by Sum?
+function divisible(arr) {
+		return !(arr.reduce( (a, b) => a * b ) % 
+		         arr.reduce( (a, b) => a + b ))
+}
+
+// Pi to N Decimal Places
+function myPi(n) {
+	return +Math.PI.toFixed(n);
+}
+
+// Remove Every Vowel from a String
+function removeVowels(str) {
+	return str.split(' ').map(s => s.replace(/[aeiou]/gi, '')).join(' ');
+}
+
+// Return the Factorial
+function factorial(int) {
+	return int <= 1 ? int : int * factorial(int - 1);
+}
+
+// Western Showdown
+function showdown(p1, p2) {
+	let firstP = p1.match(/^\s+/g) != null ? p1.match(/^\s+/g)[0].length : 0,
+			lastP = p2.match(/^\s+/g) != null ? p2.match(/^\s+/g)[0].length : 0;
+	return firstP < lastP ? 'p1' : firstP > lastP ? 'p2' : 'tie';
+}
+
+// Fix the Error: Value vs. Reference Types
+// Fix this broken code!
+function checkEquals(arr1, arr2) {
+	for(let i = 0; i < arr1.length; i++){
+		if(arr1[i] != arr2[i]) return false
+	}
+		return true
+}
+
+//Fix the Error / Comparing Arrays (Part #2)
+// Fix this code
+function checkEquals(arr1, arr2) {
+	if(arr1.length != arr2.length) return false;
+	for(let i = 0; i < arr1.length; i++){
+		if(arr1[i] != arr2[i]) return false;
+	}
+	return true;
+}
+
+// Strange Pair
+function isStrangePair(str1, str2) {
+	return str1[str1.length-1] == str2[0] && str1[0] == str2[str2.length-1];
+}
+
+// Check if a String Contains only Identical Characters
+function isIdentical(s) {
+	return [...s].every(x => x == s[0]);
+}
+
+// Book Shelf
+function Book(title, author) {
+	this.title = title;
+	this.author = author;
+	
+	this.getTitle = function() {
+		return `Title: ${this.title}`;
+	}
+	this.getAuthor = function() {
+		return `Author: ${this.author}`;
+	}
+	
+}
+// Instantiate your Book constructor here
+let PP = new Book('Pride and Prejudice', 'Jane Austen');
+let H = new Book('Hamlet', 'William Shakespeare');
+let WP = new Book('War and Peace', 'Leo Tolstoy');
+
+// Length of a Nested Array
+function getLength(arr) {
+	return arr.flat(Infinity).length;
+}
+
+// One Odd and One Even
+function oneOddOneEven(n) {
+	return n.toString().split('').reduce((a, b) => +a + +b) % 2 != 0;
+}
+
+// Make a Circle with OOP
+class Circle {
+	constructor(r){
+		this.r = r;
+	}
+	getArea() {
+		return Math.PI * (this.r ** 2);
+	}
+	getPerimeter() {
+		return 2 * Math.PI * this.r;
+	}
+}
+
+let q = new Circle(4.44);
+console.log(q.getArea());
+console.log(q.getPerimeter());
+
+// Array of Multiples
+function arrayOfMultiples (n, l) {
+	let arr = [],
+			i;
+	for(i = 1; i <= l; i++) {
+		arr.push(i);
+	}
+	return arr.map(x => x * n);
+}
+
+// Letters Only
+function lettersOnly(str) {
+	return str.match(/[a-z]*/gi).join('');
+}
+
+// Fix the Error: Mutating Arrays
+// Fix this incorrect code, so that all tests pass!
+function minusOne(arr) {
+	return arr.slice(0, arr.length-1);
+}
+
+// Clear the Fog
+function clearFog(str) {
+	return str === 'city' ? 'It\'s a clear day!' : str.match(/[^fog]+/g).join('');
+}
+
+// Evaluate an Equation
+function eq(e) {
+	return eval(e);
+}
+
+// Convert a Number to Base 2
+function binary(decimal) {
+	return decimal.toString(2);
+}
+
+//Promises III: Native Promise, Introducing the Executor
+let promise = new Promise((resolve, reject) => {
+	setTimeout(() => {
+		resolve('Resolved')
+	}, 1000)
+});
+
+// CMS Selector Based on a Given String
+function cmsSelector(arr, str) {
+	return str = '' ? arr.sort() : arr.filter(x => x.includes(str)).sort();
+}
+
+// RegEx: Character Classes VIII ⁠- \d
+const REGEXP = /\d+\s\w+\s{
+
+// Return Only the Integer
+function returnOnlyInteger(arr) {
+	return arr.filter(n => Number.isInteger(n) );
+}
+
+// Solve the Equation
+function equation(s) {
+	return eval(s);
+}
+
+// Are the Numbers Equal?
+function isEqual(n1, n2) {
+	return Number.isInteger(n1 + n2) ? n1 == n2 : false;
+}
+
+// Explosion Intensity
+function boomIntensity(n) {
+	return n < 2 ? 'boom' : !(n % 5) && !(n % 2) ? ('B' + 'o'.repeat(n) + 'm!').toUpperCase() :
+				 !(n % 5) ? ('B' + 'o'.repeat(n) + 'm').toUpperCase() :
+				 !(n % 2) ? ('B' + 'o'.repeat(n) + 'm!') : 'B' + 'o'.repeat(n) + 'm'; 
+}
+
+// Football Points
+function footballPoints(wins, draws, losses) {
+	return wins * 3 + draws * 1;
+}
+
+// Broken Bridge
+function isSafeBridge(str) {
+	return str.match(/\s/g) ? false : true;
+}
+
+// Oddish vs. Evenish
+function oddishOrEvenish(num) {
+	return num.toString().split('').reduce((a, b) => +a + +b) % 2 == 0 ? 
+		'Evenish' : 'Oddish';
+}
+
+// Squares and Cubes
+function checkSquareAndCube(arr) {
+	return Math.sqrt(arr[0]) === Math.cbrt(arr[1]);
+}
+
+// Calculate the Profit
+function profit(info) {
+	return Math.round((info.sellPrice - info.costPrice) * info.inventory);
+}
+
+// Convert Key, Values in an Object to Array
+function objectToArray(obj) {
+	return Object.entries(obj);
+}
+
+// Array from Comma-Delimited String
+function toArray(str) {
+	return str.length == 0 ? [] : str.split(', ');
+}
+
+// Adding Numbers in a String
+const addNums = n => n.split(', ').length == 1 ? +n.split(', ')[0] :
+				n.split(', ').reduce((a, b) => +a + +b);
+
+// Integer in Range?
+function intWithinBounds(n, l, u) {
+	return Number.isInteger(n) && n >= l && n < u;
+}
+
+// Older Than Me
+class Person {
+	constructor(name, age) {
+		this.name = name;
+		this.age = age;
+	}
+	compareAge(other) {
+		if(this.age < other.age) {
+			return `${other.name} is older than me.`;
+		} else if(this.age > other.age) {
+			return `${other.name} is younger than me.`;
+		} else {
+			return `${other.name} is the same age as me.`;
+		}
+		
+	}
+}
+
+// Fullname and Email
+class Employee {
+	constructor (firstname, lastname, fullname, email) {
+		this.firstname = firstname
+		this.lastname = lastname
+		this.fullname = `${firstname} ${lastname}`;
+		this.email = `${firstname}.${lastname}@company.com`.toLowerCase();
+	}
+}
+
+// Sandwich Fillings
+function getFillings(sandwich) {
+	return sandwich.filter(x => x != 'bread') ;
+}
+
+// Return the Objects Keys and Values
+function keysAndValues(obj) {
+	return [Object.keys(obj), Object.values(obj)];
+}
+
+// Is the Number a Repdigit
+function isRepdigit(num) {
+	return [...num + ''].every(x => x == [...num + ''][0]) && num >= 0;
+} 
+
+// remove the repeated letters
+function unrepeated(str) {
+	return str.split('').filter((item, index, str) => 
+								str.indexOf(item) == index).join``;
+}
+
+// Sort Numbers in Descending Order
+function sortDescending(num) {
+	return Number([...num + ''].sort((a, b) => b - a).join``);		 
+}
+
+// Maximum Possible Total
+function maxTotal(nums) {
+	return nums.sort((a, b) => b - a).slice(0, 5).reduce((a, b) => a + b);
+};
+
+// Does a Number Exist?
+function validStrNumber(n) {
+	return !isNaN(n);
+}
+
+// Minimum Removals to Make Sum Even
+function minimumRemovals(arr) {
+	return arr.reduce((a, b) => a + b) % 2 ? 1 : 0;
+}
+
+// Find the Largest Numbers in a Group of Arrays
+function findLargestNums(arr) {
+	return arr.map(x => Math.max(...x));
+}
+
+// Between Words
+function isBetween(first, last, word) {
+	return [first, last, word].sort()[1] == word;
+} 
+
+// Retrieve the Subreddit
+function subReddit(link) {
+	return link.substring(25, link.length-1);
+}
+
+// Leap Years
+function isLeap(year) {
+	return year % 100 && !(year % 4) || !(year % 400) ? true : false;
+} 
+
+// Return the Index of the First Vowel
+function firstVowel(str) {
+	return str.search(/[aieuo]/i);
+}
+
+// Scrabble Hand
+function maximumScore(tileHand) {
+	let score = 0;
+	for(sc in tileHand) {
+		score += tileHand[sc].score;
+	}
+	return score;
+};
+
+// Both Zero, Negative or Positive
+function both(n1, n2) {
+	return Math.sign(n1) == 1 && Math.sign(n2) == 1 ? true : 
+		   Math.sign(n1) == -1 && Math.sign(n2) == -1 ? true :
+		   Math.sign(n1) == 0 && Math.sign(n2) == 0 ? true : false;
+};
+
+// Most Left Digit
+function leftDigit(num) {
+	return +num.match(/\d/).join('');
+}
+
+// Return the Highest and Lowest Numbers
+function highLow(str) {
+	let n = str.split(' ').sort((a, b) => a - b);
+	return `${n[n.length-1]} ${n[0]}`;
+}
+
+// Sort Numbers in Ascending Order
+function sortNumsAscending(arr) {
+	return arr == null ? [] : arr.sort((a, b) => a - b);
+}
+
+// Secret Society
+function societyName(friends) {
+	return friends.map(x => x[0]).sort().join('');
+}
+
+// Printer Levels
+function inkLevels(inks) {
+	return Object.values(inks).sort((a, b) => a - b)[0];
+}
+
+// Concatenate Variable Number of Input Arrays
+function concat(...args) {
+	return [...args].flat(Infinity);
+}
+
+// Rock, Paper, Scissors
+function rps(p1, p2) {
+	return p1 == p2 ? 'It\'s a draw' : p1 == 'Rock' && p2 != 'Paper' || 
+		   p1 == 'Scissors' && p2 != 'Rock' || p1 == 'Paper' && p2 != 'Scissors'
+		   ? 'The winner is p1' : 'The winner is p2';
+}
+
+// Numbers in Strings
+function numInStr(arr) {
+	return arr.filter(x => /\d/.test(x));
+}
+
+// Concatenate to Form Target Array
+function canConcatenate(arr, target) {
+	return arr.flat(Infinity).length == target.length;
+}
+
+// How Many Days Between Two Dates
+function getDays(date1, date2) {
+	return (date2 - date1) / 86400000;
+}
+
+// Is Sam with Frodo?
+function middleEarth(arr) {
+	return arr.indexOf('Sam') == arr.indexOf('Frodo') - 1 || 
+		   arr.indexOf('Sam') == arr.indexOf('Frodo') + 1 ? true : false;
+}
+
+// Product of All Odd Integers
+function oddProduct(arr) {
+	return arr.filter(x => x % 2).reduce((a, b) => a * b);
+}
+
+// Triangular Number Sequence
+function triangle(n) {
+	if(n <= 1) return n;
+	return n + triangle(n - 1);
+}
+
+// Typing Game
+function correctStream(u, c) {
+	return c.map(x => u.indexOf(x) != -1 ? 1 : -1);
+}
+
+// Reverse the Odd Length Words
+function reverseOdd(str) {
+	return str.split(' ').map(x => x.length % 2 ? 
+				 [...x].reverse().join('') : x).join(' ');
+}
+
+// Even Number Generator
+function findEvenNums(num) {
+	if(num <= 1) return [];
+	let even = [];
+	for(let i = 2; i <= num; i += 2) {
+		even.push(i);
+	}
+	return even;
+}
+
+// Recursion: Array Sum
+function sum(arr) {
+	return arr.reduce((a, b) => a + b, 0);
+}
+
+// Lexicographically First and Last
+function firstAndLast(s) {
+	return [s.split('').sort().join(''), s.split('').sort().reverse().join('')];
+}
+
+// The Full Length of a Google
+function googlify(n) {
+	return n <= 1 ? 'invalid' : 'G' + 'o'.repeat(n) + 'gle';
+}
+
+// Say Hello to Guests
+function greetPeople(names) {
+	return names.length == 0 ? '' : names.map(x => 'Hello ' + x).join(', ');
+}
+
+// Is the Object Empty?
+function isEmpty(obj) {
+	return Object.keys(obj) == 0;
+}
+
+// Smash Factor
+function smashFactor(bs, cs) {
+	return +(bs / cs).toFixed(2);
+}
+
+// Re-Form the Word
+function getWord(left, right) {
+	return left.split('').slice(0, 1).join('').toUpperCase() + 
+		   left.split('').slice(1, ).join('') + right;
+} 
+
+// Even Odd Partition
+function evenOddPartition(arr) {
+	return [arr.filter(x => !( x % 2)), arr.filter(x => x % 2)];
+}
+
+// Is the Number Symmetrical?
+function isSymmetrical(num) {
+	return [...num + ''][0] == [...num + ''].reverse()[0];
+}
+
+// Recursion: Reverse a String
+function reverse(str) {
+	return [...str].reverse().join('');
+}
+
+// Filter by Digit Length
+function filterDigitLength(arr, num) {
+	return arr.filter(x => [...x + ''].length == num);
+}
+
+// Is the Average of All Elements a Whole Number?
+function isAvgWhole(arr) {
+	return arr.reduce((a, b) => a + b) % arr.length == 0;
+}
+
+// RegEx: Special Characters
+function asterisk(s) {
+	return /\w*a\w*c\w*/gi.test(s);
+}
+
+// Little Dictionary
+function dictionary(initial, words) {
+	return words.filter(x => x.startsWith(initial));
+}
+
+// Nth Smallest Element
+function nthSmallest(arr, n) {
+	return arr.sort((a, b) => a - b)[n-1] == undefined ? null : 
+	      arr.sort((a, b) => a - b)[n-1];
+}
+
+// Prefixes vs. Suffixes
+function isPrefix(word, prefix) {
+	return word.startsWith([...prefix].slice(0, -1).join(''));
+} 
+function isSuffix(word, suffix) {
+	return word.endsWith([...suffix].slice(1).join(''));
+}
+
+// Array Operation
+function arrayOperation(x, y, n) {
+	let i,
+			arr = [];
+	for(i = x; i <= y; i += 1)  {
+		if(i % n == 0) {
+			arr.push(i);
+		}
+	}
+	return arr;
+}
+
+// Applying Discounts
+function getDiscounts(nums, d) {
+	return nums.map(x => x * parseInt(d) / 100);
+}
+
+// Fix the Error: Filtering out Empty Arrays
+// Fix this incorrect code so that all tests pass!
+function removeEmptyArrays(arr) {
+	return arr.filter(x => x != false);
+}
+
+// Mirror Array
+function mirror(arr) {
+	return arr.concat(arr.slice(0, -1).reverse());
+}
+
+// Count the Capital Letters
+function capitalLetters(str) {
+	return str.match(/[A-Z]/g) != null ? str.match(/[A-Z]/g).length : 0;
+}
+
+// Extremely Over-Nested
+function deNest(arr) {
+	return arr.flat(Infinity)[0];
+}
+
+// Array of Consecutive Numbers
+function getSequence(l, h) {
+	return Array.from({length: h - l + 1}, (v, i) => l + i);
+}
+
+// Amplify the Multiples of Four
+function amplify(num) {
+	return Array.from({length: num}, (_, i) => i + 1).
+		   map(v => !(v % 4) ? v * 10 : v);
+}
+
+// Hashes and Pluses
+function hashPlusCount(str) {
+	let hashes = str.match(/#/g) != null ? str.match(/#/g).length : 0,
+			pluses = str.match(/\+/g) != null ?str.match(/\+/g).length : 0;
+	return [hashes, pluses];
+}
+
+// Multiplying Numbers in a String
+function multiplyNums(nums) {
+	return +(nums.split(', ').reduce((x, y) => x * y));
+}
+
+// Get Sum of People's Budget
+function getBudgets(arr) {
+	return arr.map(o => o.budget).reduce((a, b) => a + b);
+}
+
+// Count Number of Identical Arrays
+function countIdenticalArrays(arr1, arr2, arr3, arr4) {
+	let i = new Set();
+	i.add(arr1.join(''));
+	i.add(arr2.join(''));
+	i.add(arr3.join(''));
+	i.add(arr4.join(''));
+	return i.size == arguments.length ? 0 : arguments.length - i.size + 1;
+}
+
+// Sum of Cubes
+function sumOfCubes(nums) {
+	return nums.length == 0 ? 0 : nums.map(x => x ** 3).reduce((a, b) => a + b);
+}
+
+// Convenience Store
+function changeEnough(c, amountDue) {
+	return c[0] * 0.25 + c[1] * 0.10 + c[2] * 0.05 + c[3] * 0.01 >= amountDue; 
+}
+
+// Stupid Addition
+function stupidAddition(a, b) {
+	return typeof a != typeof b ? null : 
+				 typeof a && typeof b == 'string' ? +a + +b : a + '' + b;
+}
+
+// Profit Margin
+function profitMargin(costPrice, salesPrice) {
+	return `${((salesPrice - costPrice) / salesPrice * 100).toFixed(1)}%`;
+}
+
+// Sort by Answer
+function sortByAnswer(arr) {
+	return arr.map(x => x.replace(/x/, '*'))
+		   .sort((a, b) => eval(a) - eval(b)).map(x => x.replace(/\*/, 'x'));
+}
+
+// Multi-division
+function abcmath(a, b, c) {
+	let i,
+			sum = a + a;
+	for(i = 0; i <= b; i++) {
+		sum += a * b;
+	}
+	return sum % c === 0;
+}
+
+// Same Number of Unique Elements
+function same(a1, a2) {
+	return new Set(a1).size == new Set(a2).size;
+}
+
+// Hamming Distance
+function hammingDistance(str1, str2) {
+	let i,
+			count = 0;
+	for(i = 0; i < str1.length; i++) {
+		if(str1[i] != str2[i]) {
+			count++;
+		}
+	}
+	return count;
+}
+
+// Find the Bug: Returning Valid Units of Measure
+function hasValidUnitOfMeasure(product = {}) {
+	const { unitOfMeasure, comment } = product
+	return (unitOfMeasure === 'L' || unitOfMeasure === 'PCE' 
+			|| product.hasOwnProperty('comment'));
+}
+
+// A Circle and Two Square
+function squareAreasDifference(r) {
+	return (r * r) * 2;
+}
+
+// Filter out Strings from Array
+function filterArray(arr){
+	return arr.filter(el => Number.isInteger(el));
+}
+
+// Check if a Number is a Palindrome
+function isPalindrome(n) {
+	return n.toString().split('').join('') == 
+		     n.toString().split('').reverse().join('');
+}
+
+// Toy Car Workshop
+function cars(w, b, f) {
+	return Math.min(Math.floor(w / 4), b, Math.floor(f / 2));
+}
+
+// Cowboy Shootout
+function rogerShots(arr) {
+	return arr.filter(x => x == 'Bang!' || x == 'BangBang!').length / 2;
+} 
+
+// Retrieve the Last N Elements
+function last(a, n) {
+	return n > a.length ? 'invalid' : a.slice(a.length - n, );
+}
+
+// Hot Pics of Danny DeVito!
+function preventDistractions(str) {
+	return str.match(/anime|meme|vines|roasts|Danny DeVito/g) ? 'NO!' : 
+		   'Safe watching!';
+}
+
+// Recursion: Sum
+function sum(n) {
+	if(n <= 1) return n;
+	return n + sum(n - 1);
+}
+
+// Give Me the Even Numbers
+function sumEvenNumsInRange(start, stop) {
+	let sum = 0;
+	for(let i = start; i <= stop; i += 1) {
+		if(i % 2 == 0) {
+			sum += i;
+		}
+	}
+	return sum;
+}
+
+// The Fizz Buzz Test
+function fizzBuzz(n){
+	let arr = [];
+	let i = 1;
+	while(i <= n) {
+		arr.push(i);
+		i++;
+	}
+	return arr.map(x => !(x % 15) ? 'FizzBuzz' : !(x % 5) ? 'Buzz' : 
+								 !(x % 3) ? 'Fizz': x);
+}
+
+// Owofied a Sentence
+function owofied(sentence) {
+	const rep = {
+		e: 'we',
+		i: 'wi'
+	};
+	return sentence.replace(/e|i/g, function(x){
+		return rep[x];
+	}) + ' owo';
+}
+
+// Sastry Numbers
+function isSastry(n) {
+	let s = '' + n + (n + 1);
+	return Math.floor(Math.sqrt(s)) ** 2 === +s;
+}
+
+// Basic Statistics: Mean
+function mean(nums) {
+	return +((nums.reduce((a, b) => a + b) / nums.length).toFixed(1)); 
+}
+
+// Basic Calculator
+function calculator(num1, operator, num2) {
+	return eval(num1 + operator + num2) == Infinity ? 'Can\'t divide by 0!' 
+		   : eval(num1 + operator + num2);
+}
+
+// Algebra Sequence — Boxes
+function boxSeq(step) {
+	return step % 2 ? step + 2 : step;
+}
+
+// function transformUpvotes(str) {
+	return str.split(' ').map(x => x.endsWith('k') ? parseFloat(x) * 1000 : +x);
+}
+
+// Hitting the Jackpot
+function testJackpot(result) {
+	return result.every(x => x === result[0]);
+}
+
+// Enharmonic Equivalents
+function getEquivalent(note) {
+	switch(note) {
+		case 'C#':
+			return 'Db';
+			break;
+		case 'Db':
+			return 'C#';
+			break;
+		case 'D#':
+			return 'Eb';
+			break;
+		case 'Eb':
+			return 'D#';
+			break;
+		case 'F#':
+			return 'Gb';
+			break;
+		case 'Gb':
+			return 'F#';
+			break;
+		case 'G#':
+			return 'Ab';
+			break;
+		case 'Ab':
+			return 'G#';
+			break;
+		case 'A#':
+			return 'Bb';
+			break;
+		case 'Bb':
+			return 'A#';
+			break;
+	}
+}
+
+// Drink Sorting
+function sortDrinkByPrice(drinks) {
+	return drinks.sort((a, b) => a.price - b.price);
+}
+
+// Fix the Error: Flattening an Array
+// Fix this incorrect code so that all tests pass!
+function flatten(arr) {
+  arr2 = [];
+  for (let i = 0; i < arr.length; i++) {
+    for(let j = 0; j < arr[i].length; j++) {
+			arr2.push(arr[i][j])
+		}
+  }
+  return arr2; 
+}
+
+// RegEx: Boundary Assertions II
+function acceptedWords(arr) {
+	return arr.filter(x => x[0] != 'C');
+}
+
+// Recursion to Repeat a String n Number of Times
+function repetition(txt, n) {
+	if(n <= 1) return txt;
+	return txt + repetition(txt, n - 1);
+}
+
+// Censor Words Longer Than Four Characters
+function censor(str) {
+	return str.split(' ').map(x => x.length > 4 ? x.replace(/\w/gi, '*') : x)
+		   .join(' ');
+}
+
+// Ageing the Population...
+function afterNYears(names, n) {
+	for(name in names) {
+		names[name] = names[name] + Math.abs(n);
+	}
+	return names;
+}
+
+// Promises I: What Is a Closure?
+function greetingMaker(salutation) {
+	function closure(name) {
+	  return salutation + ", " + name; 	
+	}
+	return closure;
+}
+
+// Promises II: What Is a Callback?
+function anotherFunc(callback) {
+	let str = "bye"
+		return callback(str)
+	setTimeout(() => {
+	}, 100)
+}
+
+var doc = "hello"
+
+function callback(str) {
+	doc = str
+}
+
+// Count Ones in Binary Representation of Integer
+function countOnes(i) {
+	return i.toString(2).match(/1/g) == null ? 0 : 
+	       i.toString(2).match(/1/g).length;
+}
+
+// ReverseAndNot
+function reverseAndNot(i) {
+	return +([...i + ''].reverse().join('') + i);
+}
+
+// Don't Roll Doubles!
+function diceGame(arr) {
+	return arr[0].length > new Set(arr[0]).size || arr[1].length > new Set(arr[1])
+		     .size || arr[2].length > new Set(arr[2]).size ? 0 :
+			 arr.flat(3).reduce((a, b) => a + b);
+}
+
+// Solving Exponential Equations With Logarithms
+function solveForExp(a, b) {
+	return Math.round(Math.log(b)/Math.log(a));
+}
+
+// Radian To Degree
+function toDegree(radian){
+	return Math.floor( 57.3 * radian);
+}
+
+// Barbecue Skewers
+function bbqSkewers(g) {
+	return [g.filter(x => !x.includes('x')).length, 
+		    g.filter(x => x.includes('x')).length];
+}
+
+// Is Johnny Making Progress?
+Array.prototype.next = function() {
+	return this[++this.curr];
+}
+Array.prototype.curr = 0;
+function progressDays(runs) {
+	let count = 0;
+	for(let i = 0; i < runs.length; i++) {
+		if(runs[i] < runs.next()) {
+			count++;
+		}
+	}
+	return count;
+}
+
+// Binary to Decimal Converter
+function binaryToDecimal(binary) {
+	return parseInt(binary.join(''), 2);
+}
+
+// Index Multiplier
+function indexMultiplier(arr) {
+	let mul = 0;
+	arr.forEach((val, i) => {
+		 return mul += val * i;
+	});
+	return mul;
+}
+
+// Get the Century
+function century(year) {
+	return Math.ceil(year / 100) < 21 ? `${Math.ceil(year / 100)}th century` :
+		   `${Math.ceil(year / 100)}st century`
+}
+
+// Reverse the Number
+function rev(n) {
+	return [...n + ''].reverse().filter(x => x != '-').join('');
+}
+
+// Using the "&&" Operator
+function and(a, b) {
+	return a && b;
+}
+
+// Calculate the Mean
+function mean(arr) {
+	return +(arr.reduce((a, b) => a + b) / arr.length).toFixed(2);
+}
+
+// RegEx XV : Group Ranges - Negated Character Sets
+const REGEXP = /[^\w]/gi
+
+// Algorithms I: Introduction to Recursion
+function factorial(num) {
+	if(num <= 1) return num;
+	return num * factorial(num - 1);
+}
+
+// Summing a Slice
+function sliceSum(arr, n) {
+	arr.length = n
+	return arr.length > 0 ? arr.reduce((a, b) => a + b) : 0;
+} 
+
+// Even or Odd Number of Factors
+function factorGroup(num) {
+	return Math.sqrt(num) % 2 == 0 || Math.sqrt(num) == 1 ? 'odd' : 'even';
+}
+
+// RegEx XVII : Quantifiers - x{n}, x{n,}, x{n,}
+const REGEXP = /\.{3,}/g
+
+// Find NaN in an Array
+function findNaN(n) {
+	return n.findIndex(i => isNaN(i));
+}
+
+// RegEx: Character Classes XI ⁠- \S
+const REGEXP = /\S\?/g
+
+// RegEx XIV: Group Ranges - Character Sets
+const REGEXP = /x[A-F\d]{2}/g
+
+// Remove Trailing and Leading Zeros
+function removeLeadingTrailing(n) {
+	return n == parseInt(n) ? +n + '' : +n.toString() + '';
+}
+
+// Find Unique Character Strings
+function filterUnique(arr) {
+	return arr.filter(x => x.length == new Set(x).size);
+}
+
+// Word without first character
+function newWord(txt){
+	return txt.substring(1, );
+}
+
+// Remove Duplicates from an Array
+function removeDups(arr) {
+	return Array.from(new Set(arr));
+}
+
+// Volume of a Cone
+function coneVolume(h, r) {
+	return +((Math.PI * h * (r**2)) / 3).toFixed(2);
+}
+
+// Purge and Organize
+function uniqueSort(arr) {
+	return [...new Set(arr)].sort((a, b) => a - b);
+}
+
+// Neatly Formatted Math
+function formatMath(expr) {
+	return `${expr} = ${eval(expr.replace('x', '*'))}`;
+}
+
+// Xs and Os, Nobody Knows
+function XO(str) {
+  let x = str.match(/x/gi);
+  let o = str.match(/o/gi);
+  return x == null && o == null
+    ? true
+    : (x == null && o != null) || (x != null && o == null)
+    ? false
+    : x.length == o.length;
+}
+
+// Sort an Array by String Length
+function sortByLength(arr) {
+	return arr.sort((a, b) => a.length - b.length);
+}
+
+// Fix the Error: Check Whether a Given Number Is Odd
+function isOdd(n) {
+	return n % 2 != 0;
+}
+
+// Something in the Box?
+function inBox(arr) {
+	return arr.join('').match(/\*/) != null;
+}
+
+// Replace Vowel with Another Character
+function replaceVowel(word) {
+	const vowels = {
+		a: '1',
+		e: '2',
+		i: '3',
+		o: '4',
+		u: '5'
+	}
+	return word.replace(/a|e|i|o|u/g, function(v) {
+		return vowels[v];
+	});
+}
+
+// Find the Mean of All Digits
+function mean(num) {
+	return Math.floor(
+    Array.from('' + num).reduce((a, b) => +a + +b) / String(num).length
+  );
+}
+
+// Sum of the Items in an Array
+function sumArray(arr) {
+	return arr.flat(Infinity).reduce((a, b) => a + b);
+}
+
+// Video Length in Seconds
+function minutesToSeconds(time) {
+	return time.split(':')[1] < 60 
+		? time.split(':')[0] * 60 + +time.split(':')[1] 
+	  : false;
+}
+
+// Say "Hello" Say "Bye"
+function sayHelloBye(name, num) {
+	return num == 1 
+	  ? `Hello ${name[0].toUpperCase() + name.substring(1)}` 
+	  : `Bye ${name[0].toUpperCase() + name.substring(1)}`;
+}
+
+// Phone Number Formatting
+function formatPhoneNumber(num) {
+	return `(${num.slice(0, 3).join('')}) ${num.slice(3, 6).join('')}-${num
+    .slice(6)
+    .join('')}`;
+}
+
+// Number of Squares in a n * n Grid
+function numberSquares(n) {
+	if(n <= 1) return n;
+	return n * n + numberSquares(n - 1);
+}
+
+// Odd Up, Even Down — N Times
+function evenOddTransform(arr, n) {
+	return arr.map(x => x % 2 ? x + n * 2 : x - n * 2);
+}
+
+// Capitalize the Names
+function capMe(arr) {
+	return arr.map(x => x[0].toUpperCase() + x.slice(1).toLowerCase());
+}
+
+// Match the Last Item
+function matchLastItem(arr) {
+	return arr.slice(0, -1).join`` == arr[arr.length - 1];
+}
+
+// Using Ternary Operators
+const yeah_nope = bool => bool ? 'yeah' : 'nope';
+
+// Transform into an Array with No Duplicates
+function set(arr) {
+	return Array.from(new Set(arr));
+}
+
+// Capitalize the First Letter of Each Word
+function makeTitle(str) {
+	return str.split(' ').map(x => x[0].toUpperCase() + x.slice(1))
+		.join(' ');
+}
+
+// Transforming Words into Binary Strings
+function convertBinary(str) {
+	return str.replace(/[a-m]/gi, '0').replace(/[n-z]/gi, '1');
+}
+
+// Return the Middle Character(s) of a String
+function getMiddle(str) {
+	return str.length % 2
+	  ? str[Math.round((str.length - 1) / 2)]
+	  : str[(str.length / 2) - 1] + str[str.length / 2];
+}
+
+// H4ck3r Sp34k
+function hackerSpeak(str) {
+	const huck = {
+		a: '4',
+		e: '3',
+		i: '1',
+		o: '0',
+		s: '5'
+	};
+	return str.replace(/a|e|i|o|s/gi, r => huck[r]);
+}
+
+// Find the Characters Counterpart Char Code
+function counterpartCharCode(char) {
+	return char.charCodeAt(0) < 65 ? char.charCodeAt(0)
+	  : char.charCodeAt(0) > 300 && char.charCodeAt(0) < 500 && char == char.toLowerCase() ? char.charCodeAt(0) - 1
+	  : char.charCodeAt(0) > 300 && char.charCodeAt(0) < 500 && char == char.toUpperCase() ? char.charCodeAt(0) + 1
+	  : char.charCodeAt(0) > 500 && char == char.toLowerCase() ? char.charCodeAt(0) - 10795
+	  : char.charCodeAt(0) > 500 && char == char.toUpperCase() ? char.charCodeAt(0) + 10795
+	  : char == char.toLowerCase()
+		? char.charCodeAt(0) - 32
+	  : char.charCodeAt(0) + 32
+}
+
+// Flip the Boolean
+const flipBool = b => b ? 0 : 1;
+
+// Middle Character Of a String
+function middleCharacter(txt){
+	return txt[(txt.length / 2) - 1];
+}
+
+// Convert to Decimal Notation
+function convertToDecimal(perc) {
+	return perc.map(x => x.slice(0, -1) / 100);
+}
+
+// Square Every Digit
+function squareDigits(n) {
+	return +Array.from(n + '').map(x => x * x).join``;
+}
+
+// After N Months...
+function afterNMonths(year, months) {
+	return year == undefined
+	? 'year missing' : months == undefined
+	? 'month missing' 
+	: Math.floor(year + months / 12);
+}
+
+// Equality of 3 Values
+function equal(a, b, c) {
+	const arr = [a, b, c];
+  let x = new Set(arr);
+  return arr.length - x.size != 0
+    ? arr.length - x.size + 1
+    : arr.length - x.size;
+}
+
+// Position in the Alphabet
+function letterAtPosition(n) {
+	return Number.isInteger(n) && n <= 26 && n >= 1 
+	  ? String.fromCharCode(n + 96)
+	  : 'invalid';
+}
+
+// Factorize a Number
+function factorize(num) {
+	let arr = [];
+  for (let i = 1; i <= num; i++) {
+    if (num % i == 0) {
+      arr.push(i);
+    }
+  }
+  return arr;
+}
+
+// Total Number of Unique Characters
+function countUnique(s1, s2) {
+	return new Set(s1 + s2).size;
+}
+
+// Concatenating First and Last Character of a String
+function firstLast(name) {
+	return name[0] + name[name.length-1];
+}
+
+// Omnipresent Value
+function isOmnipresent(arr, val) {
+	return arr.map((x) => x.some((x) => x === val)).every(x => x ==true) 
+	  ? true 
+	  : false;
+}
+
+// Index Shuffle
+function indexShuffle(str) {
+	let even = '';
+  let odd = '';
+  for (let i = 0; i < str.length; i++) {
+    if (i % 2 == 0) {
+      even += str[i];
+    }
+    if (i % 2) {
+      odd += str[i];
+    }
+  }
+  return even + odd;
+}
+
+// Find the Missing Number
+function missingNum(arr) {
+	return 55 - arr.reduce((a, b) => a + b);
+}
+
+// Return the Sum of the Two Smallest Numbers
+function sumTwoSmallestNums(arr) {
+	return arr.filter(x => x > 0).sort((a, b) => a - b)[0] 
+		   + arr.filter(x => x > 0).sort((a, b) => a - b)[1];
+}
+
+// First and Last Index
+function charIndex(word, char) {
+	let i1 = word.indexOf(char);
+	let i2 = word.lastIndexOf(char);
+	return i1 == -1 && i2 == -1 ? undefined : i2 == -1 ? [i1, i1] : [i1, i2];
+}
+
+// Create a Phone Number
+function createPhoneNumber(n) {
+	return `(${n.slice(0, 3).join('')}) ${n.slice(3, 6).join('')}-${n
+    .slice(6)
+    .join('')}`;
+}
+
+// How Many Decimal Places?
+function getDecimalPlaces(num) {
+	return num.includes('.') 
+	  ? num.slice(num.indexOf('.') + 1).length
+	  : 0;
+}
+
+// Reverse the Order of Words with Five Letters or More
+function reverse(str) {
+	return str.split(' ').map(x => x.length >= 5 
+								   ? [...x].reverse().join('') : x)
+		.join(' ');
+} 
+
+// Apples and Bananas
+String.prototype.vreplace = function(vowel) {
+	return this.replace(/[aeiou]/gi, vowel);
+}
+
+// RegEx Exercise: An empty string
+const REGEXP = /\.{0}/
+
+// Reverse the Case
+function reverseCase(str) {
+	return str.split``.map(x => x == x.toUpperCase() 
+												 ? x.toLowerCase() 
+												 : x.toUpperCase())
+		.join``;
+}
+
+// Join Two Portions of a Path
+function joinPath(portion1, portion2) {
+	return portion1.includes('/') && portion2.includes('/') 
+	  ? `${portion1}${portion2.substring(1)}`
+	  : portion1.includes('/') || portion2.includes('/')
+	  ? `${portion1}${portion2}`
+	  : `${portion1}/${portion2}`;
+}
+
+// Finding Nemo
+function findNemo(sentence) {
+	return sentence.split(' ').indexOf('Nemo') != -1
+	  ? `I found Nemo at ${sentence.split(' ').indexOf('Nemo') + 1}!`
+	  : 'I can\'t find Nemo :(';
+} 
+
+// Chat Room Status
+function chatroomStatus(users) {
+	return users.length == 0 
+	  ? 'no one online' 
+	  : users.length == 1 
+	  ? `${users[0]} online` 
+	  : users.length == 2
+	  ? `${users[0]} and ${users[1]} online`
+	  : `${users[0]}, ${users[1]} and ${users.length - 2} more online`;
+}
+
+// Chapter-1(Strings) Level-1.1
+function x(arr) {
+	return +arr.join``;
+}
+
+// Convert an Array to a String
+function arrayToString(arr) {
+	return arr.join``;
+}
+
+// Capitalize first character of first word
+function capitalize(sentences) {
+	return sentences.split('.')
+	  .map(x => x.substring(0, 1).toUpperCase() + x.substring(1))
+	  .join('.');
+}
+
+// Highest Digit
+function highestDigit(n) {
+	return Math.max(...[...n + '']);
+}
+
+// Characters in Shapes
+function countCharacters(arr) {
+	return arr.map(x => x.length).reduce((a, b) => a + b, 0);
+}
+
+// Orthogonal Vector
+function isOrthogonal(arr1, arr2) {
+  let res = 0;
+  for (let i = 0; i < arr1.length; i++) {
+    res += arr1[i] * arr2[i];
+  }
+  return !res;
+}
+
+// Return the Time Saved by Speeding
+function timeSaved(lim, avg, d) {
+	return +(((d / lim) * 60) - ((d / avg) * 60 )).toFixed(1);
+}
+
+// Clone a List
+function clone(arr) {
+	return arr.concat([arr]);
+}
+
+// Factor Chain
+function factorChain(arr) {
+	return new Set(arr).size < arr.length
+    ? true
+    : arr[arr.length - 1] - arr.slice(0, -1).reduce((a, b) => a + b) == arr[0];
+}
+
+// Total Volume
+function totalVolume(...boxes) {
+	return boxes.map((x) => x.reduce((a, b) => a * b))
+		.reduce((a, b) => a + b);
+}
+
+// Move Capital Letters to the Front
+function capToFront(s) {
+	return [...s].filter((x) => x == x.toUpperCase()).join('') 
+		 + [...s].filter((x) => x == x.toLowerCase()).join('');
+}
+
+// Formatting Text on Edabit
+function mdFormat(word, style) {
+	switch(style) {
+		case 'b':
+			return `**${word}**`;
+			break;
+		case 'i':
+			return `_${word}_`;
+			break;
+		case 'c':
+			return "`" + word + "`";
+			break;
+		case 's':
+			return `~~${word}~~`;
+			break;
+	}
+}
+
+// True Ones, False Zeros
+function integerBoolean(n) {
+	return [...n].map(x => +x ? x = true : x = false);
+}
+
+// The Reverser!
+function reverse(txt){
+	return txt.split(' ')
+		.reverse()
+		.map(x => [...x]
+			.reverse()
+			.map(x => x == x.toUpperCase() ? x.toLowerCase() : x.toUpperCase())
+			.join(''))
+		.join(' ')
+}
+
+// Regex Series: 5-Digit Zip Code
+let x = /^\b\d{5}\b$/
+
+// Detect Browser from User Agent
+function detectBrowser(userAgent) {
+	return userAgent.includes('Chrome') 
+	  ? 'Google Chrome' 
+	  : userAgent.includes('Firefox') 
+	  ? 'Mozilla Firefox' 
+	  : 'Internet Explorer';
+}
+
+// Valid Zip Code
+function isValid(zip) {
+	return /^\d{5}$/.test(zip);
+}
+
+// Snail Race
+function mauriceWins(mSnails, sSnails) {
+	return mSnails[0] > sSnails[2] && mSnails[1] > sSnails[0]
+		|| mSnails[2] > sSnails[1] && mSnails[1] > sSnails[0];
+}
+
+// Capitalize by ASCII
+function asciiCapitalize(str) {
+	return str.split(' ')
+		.map(x => [...x]
+				 .map((x)=> x.charCodeAt() % 2 == 0 
+							? String.fromCharCode(x.charCodeAt()).toUpperCase() 
+							: String.fromCharCode(x.charCodeAt()).toLowerCase())
+				 .join(''))
+		.join(' ')
+} 
+
+// Halloween Day
+function halloween(dt) {
+ return dt.getMonth() == 9 && dt.getDate() == 31 
+	? 'Bonfire toffee' 
+   : 'toffee';
+}
+
+// Hiding the Card Number
+function cardHide(card) {
+	return card.substring(0, card.length-4).replace(/\d/g, '*') 
+		 + card.substring(card.length-4);
+}
+
+// Spelling it Out
+function spelling(str) {
+	let spell = [];
+	for (let i = 0; i < str.length; i++) {
+		spell.push(str.substring(0, i + 1));
+	}
+	return spell;
+}
+
+// Special Arrays
+function isSpecialArray(arr) {
+	return arr.every((x, i) => i % 2 == 0 ? x % 2 == 0 : x % 2);
+}
+
+// Check for Anagrams
+function isAnagram(s1, s2) {
+	return s1
+		.toLowerCase()
+		.split('')
+		.sort()
+		.join('') === s2
+		.toLowerCase()
+		.split('')
+		.sort()
+		.join('');
+} 
+
+// Is the Word an Isogram?
+function isIsogram(str) {
+	str = str.toLowerCase();
+	return [...str].reduce((value, item) => {
+		if (!value.includes(item)) {
+			value.push(item);
+		}
+		return value;
+	}, []).length == str.length;
+}
+
+// Number of Arrays in an Array
+function numOfSubbarrays(arr) {
+	return Array.isArray(arr[0]) == false 
+	  ? 0 
+	  : arr.length;
+}
+
+// Find the Second Occurrence of "zip" in a String
+function findZip(str) {
+	return str.match(/zip/gi).length < 2 
+	  ? -1 
+	  : str.lastIndexOf('zip');
+}
+
+// Negative Image
+function reverseImage(image) {
+	return image.map((x) => x.map((x) => (x == 1 ? 0 : 1)));
+}
+
+// All About Anonymous Functions: Adding Suffixes
+function add_suffix(suffix) {
+	return (str) => str + suffix;
+}
+
+// RegEx: Character Classes XII ⁠- \t
+const REGEXP = /\t /g
+
+// Double Letters
+function doubleLetters(word) {
+	for (let i = 0; i < word.length; i++) {
+    if (word[i] !== word[i + 1]) {
+      continue;
+    } else {
+      return true;
+    }
+  }
+  return false;
+}
+
+// ES6: Destructuring Arrays V
+const str = `[, protocol, host, path] = parsedURL`;
+
+// Remove the Special Characters from a String
+function removeSpecialCharacters(str) {
+	return str.match(/[\s\w-_]+/gi).join('');
+}
+
+// Get the Date
+function getDay(day) {
+	const weekday = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+	];
+	day = new Date(day)
+	return weekday[day.getDay()];
+}
+
+// ATM PIN Code Validation
+function validatePIN(pin) {
+  return (pin.length == 4 || pin.length == 6) && pin.match(/\D/g) == null;
+}
+
+// Number to Reversed Array
+function reverseArr(num) {
+	return [...num + ''].reverse().map(x => +x);
+}
+
+// Basic E-Mail Validation
+function validateEmail(str) {
+	return /^\w*\.*\w+@\w+\.\w{3}$/g.test(str);
+}
+
+// Function Factory
+function makePlusFunction(baseNum) {
+	return function(n) {
+		return baseNum + n;
+	}
+}
+
+// Maskify the String
+function maskify(str) {
+	return str.length < 5
+	  ? str
+	  : '#'.repeat(str.length - 4) + str.slice(str.length-4);
+}
+
+// Numbered Alphabet
+function alphNum(str) {
+	return [...str].map(s => s.charCodeAt() - 65).join(' ');
+}
+
+// Find Unique Positive Numbers from Array
+function uniqueArr(arr) {
+	return arr.reduce((val, item) => {
+		if (!val.includes(item)) {
+			val.push(item);
+		}
+		return val;
+	}, []).filter(x => x > 0);
+}
+
+// Same ASCII?
+function sameAscii(a, b) {
+	return [...a].map(x => x.charCodeAt()).reduce((a, b) => a + b) ==
+		   [...b].map(x => x.charCodeAt()).reduce((a, b) => a + b)
+}
+
+// Magic Date
+function Magic(str) {
+	return str[0] * str[2] == str.slice(str.length-2) ||
+		   str[0] * str[2] == str.slice(str.length-1);
+}
+
+// Is the Phone Number Formatted Correctly?
+function isValidPhoneNumber(str) {
+	return /^\([\d]{3}\)\s[\d]{3}-[\d]{4}$/.test(str)
+}
+
+// All About Anonymous Functions: Adding
+function addsNum(n) {
+	return a => a + n;
+}
+
+// Count the Towers
+function countTowers(t) {
+	return t[t.length-1].join('').replace(/\s/g, '').length / 2;
+}
+
+// International Greetings
+const GUEST_LIST = {
+	Randy: "Germany",
+	Karla: "France",
+	Wendy: "Japan",
+	Norman: "England",
+	Sam: "Argentina"
+}
+
+function greeting(name) {
+	return GUEST_LIST.hasOwnProperty(name)
+    ? `Hi! I'm ${name}, and I'm from ${GUEST_LIST[name]}.`
+    : "Hi! I'm a guest.";
+}
+
+// Check If Lines Are Parallel
+function linesAreParallel(l1, l2) {
+	return (l1[1] / l1[0]) == (l2[1] / l2[0])
+}
+
+// Find the Bugs: Returning Valid Prices
+function hasValidPrice(product) {
+	return arguments.length == 0 
+	  ? false 
+	  : product.price >= 0 && typeof product.price == "number"
+}
+
+// Rows of ASCII
+function formatAscii(str, w) {
+	return str
+    .match(new RegExp('.{1,' + w + '}', 'g'))
+    .map((x) => x + '\n').join('').slice(0, -1);
+}
+
+// Fractions and Rounding
+function fracRound(frac, n) {
+	return `${frac} rounded to ${n} decimal places is ${eval(frac).toFixed(n)}`;
+}
+
+// Preventing the Collapse of the Universe
+function catchZeroDivision(expr) {
+	return !isFinite(eval(expr));
+}
+
+// In the Centre?
+function isCentral(str) {
+	return str.length == 1
+    ? true
+    : !str.match(/^\s+/g) || !str.match(/\s+$/g)
+    ? false
+    : str.length - (str.match(/^\s+/g).join('').length * 2 + 1) == 0;
+}
+
+// Number of Stickers
+function howManyStickers(n) {
+	return n*n*6;
+}
+
+// Bug: Regular Expression
+function assignment(d){
+	return /^[\d]{4}\/[\d]{2}\/[\d]{2}$/.test(d)
+}
+
+// Find Number of Digits in Number
+function num_of_digits(num){
+	return (Math.abs(num) + '').length;
+}
+	
+
+//Distance Between Two Points
+function getDistance(a, b) {
+	return +Math.sqrt((b.x - a.x)**2 + (b.y - a.y)**2).toFixed(3);
+}
+
+// Return Odd > Even
+function oddeven(lst){
+	return lst.length - lst.filter(x => x % 2).length < lst.filter(x => x % 2).length;
+}
+
+// Make My Way Home
+function distanceHome (arr) {
+	return Math.abs(eval(arr.join('+')))
+}
+
+// Changing Mixed Types
+function changeTypes(arr) {
+	return arr.map((x) => {
+		return typeof x == 'number' && x % 2 == 0 ? x + 1 
+		: typeof x == 'string' ? x[0].toUpperCase() + x.slice(1) + '!'
+		: typeof x == 'boolean' ? !x
+		: x
+	});
+}
+
+// Halve and Halve Again
+function halveCount(a, b) {
+	let i = 0;
+	while(a > b) {
+		a = a / 2
+		i++
+	}
+	return i - 1;
+}
+
+// Drinks Allowed?
+function shouldServeDrinks(age, onBreak){
+	return age >= 18 && !onBreak;
+}
+
+// Find the Amount of Potatoes
+function potatoes(str) {
+	return str.match(/potato/g).length;
+}
+
+// Four Passengers and a Driver
+function carsNeeded(n) {
+	return Math.ceil(n / 5);
+}
+
+// On/Off Switches
+function posCom(num) {
+	return (1 * 2) ** num;
+}
+
+// Minimal I: If Boolean Then Boolean
+function isEven(n) {
+	return !(n % 2);
+}
+
+// Doubled Pay
+function doubledPay(n) {
+	return 2 ** n - 1;
+}
+
+// Factorial of a Number
+function fact(n) {
+	return n < 2 ? 1 : n * fact(n - 1);
+}
+
+// Return Something to Me!
+function giveMeSomething(a) {
+	return `something ${a}`;
+}
+
+// Movie Theatre Admittance
+function acceptIntoMovie(a, s) {
+	return s || a >= 15;
+}
+
+// Stuttering function
+function stutter(w) {
+	return `${w.substring(0, 2)}... ${w.substring(0, 2)}... ${w}?`;
+}
+
+// Find the bomb
+function bomb(str) {
+	return str.match(/bomb/gi) ? 'Duck!!!' : 'There is no bomb, relax.';
+}
+
+// Triangle and parallelogram area finder
+function areaShape(b,h,s) {
+  return s == 'triangle' ? 0.5 * b * h : b * h;
+}
+
+// Shhh be quiet function
+function Shhh(s) {
+  return s.length == 0 ? `"", whispered Edabit.`
+	   : `"${s[0].toUpperCase()}${s.substring(1).toLowerCase()}", whispered Edabit.`
+}
+
+// Boolean to number
+const zeroOrOne = trueOrFalse => trueOrFalse ? 1 : 0;
+
+// Where's Bob!?!
+function findBob(names) {
+	return names.indexOf('Bob');
+}
+
+// Superheroes
+function superheroes(heroes) {
+	return heroes.filter(hero => /[^wo]man$/gi.test(hero)).sort();
+}
+
+// Convert Year to Century
+function centuryFromYear(year) {
+	return Math.ceil(year / 100)
+}
+
+// Is it an Object?
+function isObject(value) {
+	return value == null ? false : typeof value == 'object';
+}
+
+// Stand in Line
+function nextInLine(arr, num) {
+	if (typeof arr != 'object') return 'No array has been selected';
+	arr.shift();
+	arr.push(num);
+	return arr;
+}
+
+// Similar Bread
+function hasSameBread(arr1, arr2) {
+	return arr1[0] === arr2[0] && arr1[arr1.length-1] === arr2[arr2.length-1];
+}
+
+// Modifying the Last Character
+function modifyLast(str, n) {
+	return str.slice(0, -1) + str[str.length-1].repeat(n);
+}
+
+// Sort by String Length
+function sortByLength(arr) {
+	return arr.sort((a, b) => a.length - b.length);
+}
+
+//Is One Array a Subset of Another?
+function isSubset(arr1, arr2) {
+	return arr1.every(ele => arr2.includes(ele));
+}
+
+// Vowel Sandwich
+function isVowelSandwich(str) {
+	return str.length != 3
+		? false
+		: /a|u|i|e|o/.test(str[1]) 
+	   && /[^a|u|i|e|o]/.test(str[0]) && /[^auieo]/.test(str[2])
+}
+
+// Transcribe To mRNA
+function dnaToRna(dna) {
+	const rna = {A: 'U', T: 'A', G: 'C', C: 'G'};
+	return dna.replace(/A|T|G|C/g, (r) => {
+		return rna[r];
+	});
+}
+
+// Sum of Evenly Divisible Numbers from a Range
+function evenlyDivisible(a, b, c) {
+	let sum = 0;
+	for (let i = a; i <= b; i++) {
+		if (i % c == 0) {
+			sum += i;
+		}
+	}
+	return sum;
+}
+
+// Is it True?
+function isTrue(r) {
+	return eval(r.replace('=', '==='));
+}
+
+// What's Hiding Amongst the Crowd?
+function detectWord(str) {
+	return str.match(/[a-z]/g).join('');
+}
+
+// Even All the Way
+function getOnlyEvens(nums) {
+	return nums.filter((x, i) => x % 2 == 0 && i % 2 == 0);
+}
+
+// Trace That Matrix
+function trace(arr) {
+	let trace = 0;
+	arr.filter((x, i) => {
+		trace += x[i];
+	});
+	return trace;
+}
+
+// Instant JAZZ
+function jazzify(arr) {
+	return arr.map(x => !x.includes(7) ? x + 7 : x);
+}
+
+// Pythagorean Triplet
+function isTriplet(n1, n2, n3) {
+	const t = [n1, n2, n3].sort((a, b) => a - b);
+	return (t[0] ** 2) + (t[1] ** 2) == t[2] ** 2;
+}
+
+// Convert Yen to USD
+function yenToUsd(yen){
+	return +(yen / 107.5).toFixed(2);
+}
+
+// Slightly Superior
+function isFirstSuperior(arr1, arr2) {
+	return [...arr1] > [...arr2];
+}
+
+// Sum of Found Indexes
+function sumFoundIndexes(arr, n) {
+	let sum = 0;
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] == n) {
+			sum += i;
+		}
+	}
+	return sum;
+}
+
+// Travelling Salesman Problem
+function paths(n) {
+	return n <= 1 ? n : n * paths(n - 1);
+}
+
+// A Long Long Time
+function longestTime(h, m, s) {
+	return h > m / 60 && h > s / 3600 
+	  ? h
+	  : m > h * 60 && m > s / 60
+	  ? m
+	  : s;
+}
+
+// Numbered Cards
+function winRound(y, o) {
+	return y.sort((a, b) => b - a).slice(0,2).join`` > 
+		   o.sort((a, b) => b - a).slice(0,2).join``;
+}
+
+// Positive Count / Negative Sum
+function countPosSumNeg(arr) {
+	return arr.length == 0 ? []
+		: [arr.length - arr.filter(x => x < 0).length, 
+		  arr.filter(x => x < 0).reduce((a, b) => a + b, 0)]
+}
+
+// Last Digit Ultimate
+function lastDig(a, b, c) {
+	return ('' + ('' + a).slice(-1) * ('' + b).slice(-1)).slice(-1) == ('' + c).slice(-1)
+}
+
+// Is the Number a Prime?
+function isPrime(num) {
+	for (let i = 2; i < num; i++) {
+		if (num % i == 0) {
+			return false;
+		}
+	}
+	return num != 1;
+}
+
+// Verbed Nouns
+function verbify(str) {
+	return str.split(' ')[0][str.split(' ')[0].length-1] == 'd'
+	  ? str
+	  : str.split(' ')[0][str.split(' ')[0].length-1] == 'e' 
+		? str.split(' ')[0] + 'd ' + str.split(' ')[1]
+	  : str.split(' ')[0] + 'ed ' + str.split(' ')[1];
+}
+
+// Amount of Possible Combinations
+	function combinations(k, n) {
+	let drawCards = 1;
+	let deckCards = 1;
+	for (let i = n; i >= n - k + 1; i--) {
+		drawCards *= i
+	}
+	for (let i = 1; i <= k; i++) {
+		deckCards *= i;
+	}
+	return +(drawCards / deckCards).toFixed()
+}
+
+// Number of Boomerangs
+function countBoomerangs(arr) {
+	let total = 0;
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] != arr[i + 1] && arr[i] == arr[i + 2]) {
+			total++;
+		}
+	}
+	return total;
+}
+
+// Promises VI: Catch
+let errorLog = {}
+
+let promise = new Promise((resolve, reject) => {
+    throw new Error('Something failed');
+}).catch(error => errorLog = error)
+
+// Upper or Lower Case
+function stepsToConvert(str) {
+	return str.match(/[a-z]/g) == null || str.match(/[A-Z]/g) == null
+	  ? 0
+	  : Math.min(str.match(/[a-z]/g).length, str.match(/[A-Z]/g).length)
+}
+
+// Alternating Ones and Zeroes
+function canAlternate(s) {
+	return s.match(/1/g) == null || s.match(/0/g) == null ? false :
+		s.match(/1/g).length == s.match(/0/g).length + 1 || 
+		s.match(/1/g).length == s.match(/0/g).length - 1 ||
+		s.match(/1/g).length == s.match(/0/g).length 
+}
+
+// Clear the Fog
+function clearFog(str) {
+	return str.match(/[fog]/gi) == null ? "It's a clear day!"
+	  : str.match(/[^fog]/gi).join('');
+}
+
+// Increment to Top
+function incrementToTop(arr) {
+	arr = arr.sort((a, b) => b - a);
+	let total = 0;
+	for (let i = 1; i < arr.length; i++) {
+		total += arr[0] - arr[i];
+	}
+	return total;
+}
+
+// Neutralisation
+function neutralise(s1, s2) {
+	let newS = '';
+	for (let i = 0; i < s1.length; i++) {
+		if (s1[i] == s2[i]) {
+			newS += s1[i]
+		} else {
+			newS += 0;
+		}
+	}
+	return newS;
+}
+
+// Kinetic Energy
+function kineticEnergy(m,v){
+	return +(m * v ** 2 / 2).toFixed();
+}
+
+// 25-Mile Marathon
+function marathonDistance(d){
+	return eval((d.join('+').match(/[^-]/g) || []).join('')) === 25;
+}
+
+// Get the File Name
+function getFilename(path) {
+	return path.split('/')[path.split('/').length-1]
+}
+
+// Tuck In Array
+function tuckIn(arr1, arr2) {
+  return [arr1[0], ...arr2, arr1[1]]
+}
+
+// Intro to Nested Loops
+function printAllGroups() {
+	const arr = ["a", "b", "c", "d", "e"];
+	let groups = '';
+	for (let i = 1; i <= 6 ; i++) {
+		for (let j = 0; j < arr.length; j++) {
+			groups += `${i}${arr[j]}, `;
+		}
+	}
+	return groups.slice(0, -2);
+
+// Same Parity?
+function parityAnalysis(n) {
+	return eval([...'' + n].join('+')) % 2 == n % 2;
+}
+
+// Automorphic Numbers
+function isAutomorphic(n) {
+	return (String(n**2)).endsWith(n);
+}
+
+// Scoring System
+function calculateScores(str) {
+	let a = 0,
+			b = 0,
+			c = 0;
+	for (let i = 0; i < str.length; i++) {
+		if (str[i] == 'A') a++;
+		if (str[i] == 'B') b++;
+		if (str[i] == 'C') c++;
+	}
+	return [a, b, c];
+}
+
+// Return an Array of Subarrays
+function matrix(x, y, z) {
+	return Array(x).fill(Array(y).fill(z));
+}
+
+// Online Shopping
+function freeShipping(order) {
+	return Object.values(order).reduce((a, b) => a + b) > 50.00;
+}
+
+// Days in a Month
+function days(month, year) {
+	return new Date(year, month, 0).getDate();
+}
+
+// Longest Sequence of Consecutive Zeroes
+function longestZero(s) {
+	return s.split('1').sort((a, b) => b.length - a.length)[0];
+}
+
+// Stripping a Sentence Down
+function stripSentence(str, chars) {
+	return str.replace(RegExp(`[${chars}]`, 'g'), '');
+}
+
+// Check if One Array is a Subset of Another
+function subset(arr1, arr2) {
+	return arr1.every(x => arr2.includes(x));
+}
+
+// Reversing an array
+function reverceArrayInPlace(arr) {
+  for (let i = 0; i < Math.floor(arr.length / 2); i++) {
+    let x = arr[arr.length - 1 - i];
+    let y = arr[i];
+    arr[i] = x;
+    arr[arr.length - 1 - i] = y;
+  }
+  return arr;
+}
+console.log(reverceArrayInPlace([1, 2, 3, 4, 5, 'a']));
+
+// Upvotes vs Downvotes
+function getVoteCount(votes) {
+	return votes.upvotes - votes.downvotes;
+}
+
+// Less Than, Greater Than
+function arrBetween(num1, num2, arr) {
+	return arr.filter(x => x > num1 && x < num2);
+}
+
+// Luke, I Am Your ...
+function relationToLuke(name) {
+	switch(name) {
+		case 'Darth Vader':
+				return 'Luke, I am your father.';
+			  break;
+		case 'Leia':
+				return 'Luke, I am your sister.';
+			  break;
+		case 'Han':
+				return 'Luke, I am your brother in law.';
+			  break;
+		default:
+				return 'Luke, I am your droid.';
+			  break;
+	}
+}
+
+// Calculate Using String Operation
+function calculate(num1, num2, op) {
+	return eval(`${num1} ${op} ${num2}`);
+}
+
+// Less Than 100 Array Remix
+function arrayLessThan100(arr) {
+	return arr.reduce((a, b) => a + b) < 100;
+}
+
+// Cube the Square Root
+function cubeSquareRoot(num) {
+	return Math.sqrt(num) ** 3 ;
+}
+
+// Emotify Sentence
+function emotify(str) {
+	const emo = {
+		smile: ':D',
+    grin:	':)',
+    sad:	':(',
+    mad:	':P'
+	};
+	return `${str.split(' ').slice(0, -1).join(' ')} ${emo[str.split(' ').slice(-1)]}`
+}
+
+// Burglary Series (07): Make a Copy
+function makeCopy(obj) {
+	let x = {};
+	return Object.assign(x, obj);
+}
+
+// Burglary Series (04): Add its Name
+function addName(obj, name, value) {
+	obj[name] = value;
+	return obj;
+};
+
+// 
