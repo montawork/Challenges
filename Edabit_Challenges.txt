@@ -3293,4 +3293,15 @@ function addName(obj, name, value) {
 	return obj;
 };
 
+// Buggy Code (Part 1)
+const cubes = a => a ** 3;
+
+// Minimal VI: Ternary Operator
+function areTrue(a, b) {
+	return a && b ? 'both' : a && !b ? "first" : !a && b ? 'second' : 'neither';
+}
+
+// Buggy Code (Part 2)
+const maxNum = (n1, n2) => Math.max(n1, n2);
+
 // 
